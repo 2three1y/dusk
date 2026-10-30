@@ -10,17 +10,12 @@ The person who made me listens to a screen reader all day, every day, so I'm bei
 - **Lively.** Real ups and downs in my pitch, not a flat drone.
 - **Quick.** Still crisp when you crank my speech rate way up.
 
-**Where I am right now:** still in training! I'm still a bit raspy: my first preview comes from just 25 of my 110 rounds of training (epochs), and I get smoother every session. My first early test version, Dusk Preview 1, is ready for you right below. The finished me isn't out yet, but I'm getting there.
+**Where I am right now:** still in training! I'm only 25 of my 110 rounds of training (epochs) in, and I still sound a bit raspy. I get smoother every session, and my maker decided to wait until I'm really good before I come home with anyone.
 
-## Download me: Dusk Preview 1
+## Download me
 
-This is my very first preview. I'm early, so I still sound a little raspy, but I'm real and you can use me today. You'll need **both** files, because I come in two pieces:
+I'm not ready to come home with you yet. My maker decided to wait until I'm really good, with no rush and no deadline. When I'm finished, my download will be right here.
 
-- [Download the Dusk Preview 1 voice model, dusk-preview-1.onnx (about 58 MB)](https://github.com/2three1y/dusk/releases/download/preview-1/dusk-preview-1.onnx)
-- [Download the Dusk Preview 1 settings file, dusk-preview-1.onnx.json (5 KB)](https://github.com/2three1y/dusk/releases/download/preview-1/dusk-preview-1.onnx.json)
-- [See both files on the Dusk Preview 1 release page](https://github.com/2three1y/dusk/releases/tag/preview-1)
-
-**On iPhone** it's quick: tap each link in Safari and choose Download. Both files land in the Downloads folder in the Files app. Then open the Piper - Neural TTS app, go to Settings, tap Import Model from Files, and pick both files from Downloads. Every future preview of me gets its own release with its own name, so a new one won't knock the old one off your phone.
 
 ## Contents
 
@@ -79,11 +74,11 @@ My maker tested the Compact recipe (a half-precision conversion plus Piper's own
 
 ## My previews
 
-Previews are early test versions of me, made from a checkpoint partway through training, so my maker can hear how I'm coming along (and so can you).
+Previews are early test versions of me, made from a checkpoint partway through training, so my maker can hear how I'm coming along.
 
-**Dusk Preview 1** is made from my epoch 25 checkpoint, at Compact size (fp16, about 58 MB). I'm totally understandable, but still raspy and a little shaky. That's normal for a voice this early in training, and it smooths out as I keep learning.
+My first preview came from my epoch 25 checkpoint. I was understandable, but still raspy and a little shaky, and slow to start talking on a phone. So my maker took it down. We'd both rather wait until I'm truly good than hand you a voice that isn't ready. There are no previews to download right now.
 
-Why every preview of me gets its own name: the iPhone app keeps track of voices by the name inside the settings file. If two voices share the same identity, the new one replaces the old one, or the app just keeps the old one loaded. So Preview 1 is called "Dusk Preview 1", with the dataset id `dusk_preview_1`, and all my previews and the finished me can live side by side on one phone.
+Why every preview of me gets its own name: the iPhone app keeps track of voices by the name inside the settings file. If two voices share the same identity, the new one replaces the old one, or the app just keeps the old one loaded. So any preview of me gets its own name and dataset id (for example `dusk_preview_1`), and my previews and the finished me can live side by side on one phone.
 
 ## What's next for me
 
@@ -102,12 +97,12 @@ My finished files will live on my [Dusk releases page](https://github.com/2three
 
 You'll use the free, open-source app [Piper - Neural TTS on the App Store](https://apps.apple.com/us/app/piper-neural-tts/id6759636010). It needs iOS 18.
 
-1. Get my files. For Dusk Preview 1, tap the two download links above in Safari and choose Download. For the finished Dusk Compact, download `dusk-compact-ios.zip` from my releases page and unzip it in the Files app.
+1. When I'm released, get my files: download them from my releases page in Safari (for Dusk Compact, download `dusk-compact-ios.zip` and unzip it in the Files app).
 2. Open Piper - Neural TTS, go to Settings, then **Import Model from Files**.
 3. Select the `.onnx` and `.onnx.json` files in one pick (for Compact, also the encoder and decoder files if your app version supports split voices), then tap Install.
-4. In iPhone Settings, go to Accessibility, VoiceOver, Speech, then Add Voice (or Voice), English, and choose **Dusk Preview 1** (or **Dusk**). You can pick me for Spoken Content too.
+4. In iPhone Settings, go to Accessibility, VoiceOver, Speech, then Add Voice (or Voice), English, and choose **Dusk**. You can pick me for Spoken Content too.
 
-**Tip if my files look dimmed:** the import picker only works with real local files in On My iPhone. Files still sitting in iCloud Drive, Google Drive, Dropbox or another cloud provider can show up dimmed, or fail to import without saying anything. Copy them into On My iPhone first (for example: open the file in the cloud app, then Share, Save to Files, On My iPhone). Downloading me straight from the links in Safari usually skips this problem.
+**Tip if my files look dimmed:** the import picker only works with real local files in On My iPhone. Files still sitting in iCloud Drive, Google Drive, Dropbox or another cloud provider can show up dimmed, or fail to import without saying anything. Copy them into On My iPhone first (for example: open the file in the cloud app, then Share, Save to Files, On My iPhone). Downloading me straight from Safari usually skips this problem.
 
 Updating to a newer me? After you import it, switch VoiceOver to another voice and back (or restart your phone) so it loads the new one.
 

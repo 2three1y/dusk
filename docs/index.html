@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hi, I'm Dusk: a free, warm, lively voice for Piper</title>
-<meta name="description" content="Hi, I'm Dusk, a free, open-source English (US) voice for Piper text-to-speech, and I'm still growing up. Download Dusk Preview 1, learn how I work, and install me on iPhone, NVDA, Android and more.">
+<meta name="description" content="Hi, I'm Dusk, a free, open-source English (US) voice for Piper text-to-speech, and I'm still growing up. Learn how I work, follow along while I train, and install me on iPhone, NVDA, Android and more.">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#1b1433">
 <link rel="stylesheet" href="style.css">
@@ -42,20 +42,13 @@
     <li><strong>Lively.</strong> Real ups and downs in my pitch, not a flat drone.</li>
     <li><strong>Quick.</strong> Still crisp when you crank my speech rate way up.</li>
   </ul>
-  <p class="status"><strong>Where I am right now:</strong> still in training! I'm still a bit raspy right now: my first preview comes from just 25 of my 110 rounds of training (epochs), and I get smoother every session. My first early test version, Dusk Preview 1, is ready for you right below. The finished me isn't out yet, but I'm getting there.</p>
+  <p class="status"><strong>Where I am right now:</strong> still in training! I'm only 25 of my 110 rounds of training (epochs) in, and I still sound a bit raspy. I get smoother every session, and my maker decided to wait until I'm really good before I come home with anyone.</p>
 </section>
 
 <section id="download" aria-labelledby="download-heading">
   <h2 id="download-heading">Download me</h2>
-  <h3>Dusk Preview 1</h3>
-  <p>This is my very first preview. I'm early, so I still sound a little raspy, but I'm real and you can use me today. You'll need <strong>both</strong> files, because I come in two pieces:</p>
-  <div class="buttons">
-    <a class="button primary" href="https://github.com/2three1y/dusk/releases/download/preview-1/dusk-preview-1.onnx" download>Download the voice model (dusk-preview-1.onnx, about 58 MB)</a>
-    <a class="button" href="https://github.com/2three1y/dusk/releases/download/preview-1/dusk-preview-1.onnx.json" download>Download the settings file (dusk-preview-1.onnx.json, 5 KB)</a>
-  </div>
-  <p>You can also find both files on my <a href="https://github.com/2three1y/dusk/releases/tag/preview-1">Dusk Preview 1 release page on GitHub</a>.</p>
-  <p><strong>On iPhone</strong> it's quick: tap each button above in Safari and choose Download. Both files land in the Downloads folder in the Files app. Then open the Piper - Neural TTS app, go to Settings, tap Import Model from Files, and pick both files from Downloads. I've written out every step in the <a href="#install">Install section</a>.</p>
-  <p>Every future preview of me gets its own release with its own name, so a new one won't knock the old one off your phone.</p>
+  <p>I'm not ready to come home with you yet. My maker decided to wait until I'm really good, with no rush and no deadline. When I'm finished, my download will be right here.</p>
+  <p>Until then, I'll be right here practicing. When I'm released, the <a href="#install">Install section</a> walks you through every step.</p>
 </section>
 
 <section id="what" aria-labelledby="what-heading">
@@ -135,17 +128,11 @@
 
 <section id="previews" aria-labelledby="previews-heading">
   <h2 id="previews-heading">My previews</h2>
-  <p>Previews are early test versions of me, made from a checkpoint partway through training, so my maker can hear how I'm coming along (and so can you).</p>
-  <h3>Dusk Preview 1</h3>
-  <ul>
-    <li>Made from my epoch 25 checkpoint.</li>
-    <li>Compact size (fp16, about 58 MB).</li>
-    <li>Files: <code>dusk-preview-1.onnx</code> and <code>dusk-preview-1.onnx.json</code>.</li>
-    <li>The download buttons are up in the <a href="#download">Download me section</a>.</li>
-    <li>How I sound: totally understandable, but still raspy and a little shaky. That's normal for a voice this early in training, and it smooths out as I keep learning.</li>
-  </ul>
+  <p>Previews are early test versions of me, made from a checkpoint partway through training, so my maker can hear how I'm coming along.</p>
+  <h3>Where my previews went</h3>
+  <p>My first preview came from my epoch 25 checkpoint. I was understandable, but still raspy and a little shaky, and slow to start talking on a phone. So my maker took it down. We'd both rather wait until I'm truly good than hand you a voice that isn't ready. There are no previews to download right now.</p>
   <h3>Why every preview of me gets its own name</h3>
-  <p>The iPhone app keeps track of voices by the name inside the settings file. If two voices share the same identity, the new one replaces the old one, or the app just keeps the old one loaded. So every preview of me gets its own name and dataset id. Preview 1 is called "Dusk Preview 1", with the dataset id <code>dusk_preview_1</code>. That way all my previews and the finished me can live side by side on one phone.</p>
+  <p>The iPhone app keeps track of voices by the name inside the settings file. If two voices share the same identity, the new one replaces the old one, or the app just keeps the old one loaded. So any preview of me gets its own name and dataset id (for example <code>dusk_preview_1</code>). That way my previews and the finished me can live side by side on one phone.</p>
 </section>
 
 <section id="roadmap" aria-labelledby="roadmap-heading">
@@ -163,19 +150,19 @@
   <h2 id="install-heading">Install me</h2>
   <p>My finished files will live on my <a href="https://github.com/2three1y/dusk/releases">Dusk releases page on GitHub</a>. Short steps for each app are below, and there are longer notes in my <a href="https://github.com/2three1y/dusk/blob/main/docs/integrations.md">Dusk integration notes</a>.</p>
 
-  <h3>iPhone (VoiceOver), with Dusk Preview 1</h3>
-  <p>You'll use the free, open-source app <a href="https://apps.apple.com/us/app/piper-neural-tts/id6759636010">Piper - Neural TTS on the App Store</a>. It needs iOS 18.</p>
+  <h3>iPhone (VoiceOver)</h3>
+  <p>When I'm released, you'll use the free, open-source app <a href="https://apps.apple.com/us/app/piper-neural-tts/id6759636010">Piper - Neural TTS on the App Store</a>. It needs iOS 18.</p>
   <ol>
-    <li>In Safari, tap <a href="https://github.com/2three1y/dusk/releases/download/preview-1/dusk-preview-1.onnx">my Preview 1 voice model</a> and choose Download. Then do the same with <a href="https://github.com/2three1y/dusk/releases/download/preview-1/dusk-preview-1.onnx.json">my Preview 1 settings file</a>.</li>
-    <li>Both files land in the Downloads folder in the Files app. That's in On My iPhone or in iCloud Drive, depending on your Safari settings. To make sure I end up on your phone, set Safari's download location to On My iPhone in Settings, under Safari, Downloads.</li>
+    <li>In Safari, open my releases page and download every file for the version you want: my voice model (the <code>.onnx</code> file) and my settings file (the <code>.onnx.json</code> file).</li>
+    <li>The files land in the Downloads folder in the Files app. That's in On My iPhone or in iCloud Drive, depending on your Safari settings. To make sure I end up on your phone, set Safari's download location to On My iPhone in Settings, under Safari, Downloads.</li>
     <li>Open Piper - Neural TTS, go to Settings, then <strong>Import Model from Files</strong>.</li>
-    <li>Open that Downloads folder, select <code>dusk-preview-1.onnx</code> and <code>dusk-preview-1.onnx.json</code> in one pick, and tap Install.</li>
-    <li>In iPhone Settings, go to Accessibility, VoiceOver, Speech, then Add Voice (or Voice), English, and choose <strong>Dusk Preview 1</strong>. You can pick me for Spoken Content too.</li>
+    <li>Open that Downloads folder, select all of my files in one pick, and tap Install.</li>
+    <li>In iPhone Settings, go to Accessibility, VoiceOver, Speech, then Add Voice (or Voice), English, and choose me by name. You can pick me for Spoken Content too.</li>
   </ol>
-  <p class="tip"><strong>Tip if my files look dimmed:</strong> the import picker only works with real local files in On My iPhone. Files that are still sitting in iCloud Drive, Google Drive, Dropbox or another cloud provider can show up dimmed, or fail to import without saying anything. If that happens, copy them into On My iPhone first (for example: open the file in the cloud app, then Share, Save to Files, On My iPhone). Downloading me straight from the buttons in Safari skips this problem.</p>
+  <p class="tip"><strong>Tip if my files look dimmed:</strong> the import picker only works with real local files in On My iPhone. Files that are still sitting in iCloud Drive, Google Drive, Dropbox or another cloud provider can show up dimmed, or fail to import without saying anything. If that happens, copy them into On My iPhone first (for example: open the file in the cloud app, then Share, Save to Files, On My iPhone). Downloading me straight from Safari skips this problem.</p>
 
   <h3>iPhone (VoiceOver), with Dusk Compact</h3>
-  <p>Once the finished me is out, it's almost the same:</p>
+  <p>For my phone-sized build, it's almost the same:</p>
   <ol>
     <li>Download <code>dusk-compact-ios.zip</code> from my releases page and unzip it in the Files app.</li>
     <li>Make sure the files are real local files in <strong>On My iPhone</strong> (see the tip above).</li>
